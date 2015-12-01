@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d9797bcf6861d530ca9e49b264dbcb0c",
-    "content-hash": "771d0517663c439475cd8503ddfc1098",
+    "hash": "89e8f48a582a47f0e4960a7f78616ac3",
+    "content-hash": "bcb343307081c56bdec8262028097e64",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -865,17 +865,17 @@
             "time": "2015-09-19 16:54:05"
         },
         {
-            "name": "itc/iteletrafficmain",
+            "name": "itc/iteletraffic",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/lsinfo3/ITC.ITeleTraffic.Main.git",
-                "reference": "4dcd726b05f99f2783ac998b92bd809391663f81"
+                "url": "https://github.com/lsinfo3/Itc.ITeleTraffic.git",
+                "reference": "5c05f0be88f1f5808ef0cdb7ae5b3699b0c2de3d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lsinfo3/ITC.ITeleTraffic.Main/zipball/4dcd726b05f99f2783ac998b92bd809391663f81",
-                "reference": "4dcd726b05f99f2783ac998b92bd809391663f81",
+                "url": "https://api.github.com/repos/lsinfo3/Itc.ITeleTraffic/zipball/5c05f0be88f1f5808ef0cdb7ae5b3699b0c2de3d",
+                "reference": "5c05f0be88f1f5808ef0cdb7ae5b3699b0c2de3d",
                 "shasum": ""
             },
             "require": {
@@ -885,15 +885,15 @@
             "type": "typo3-flow-site",
             "autoload": {
                 "psr-0": {
-                    "Itc\\ITeleTrafficMain": "Classes"
+                    "Itc\\ITeleTraffic": "Classes"
                 }
             },
             "description": "Add description here",
             "support": {
-                "source": "https://github.com/lsinfo3/ITC.ITeleTraffic.Main/tree/master",
-                "issues": "https://github.com/lsinfo3/ITC.ITeleTraffic.Main/issues"
+                "source": "https://github.com/lsinfo3/Itc.ITeleTraffic/tree/master",
+                "issues": "https://github.com/lsinfo3/Itc.ITeleTraffic/issues"
             },
-            "time": "2015-08-04 12:48:55"
+            "time": "2015-09-04 09:37:03"
         },
         {
             "name": "lelesys/news",
@@ -2788,7 +2788,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "lelesys/news": 20,
-        "itc/iteletrafficmain": 20,
+        "itc/iteletraffic": 20,
         "flowpack/behat": 20
     },
     "prefer-stable": false,

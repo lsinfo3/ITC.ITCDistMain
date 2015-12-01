@@ -8,7 +8,7 @@
     },
     "repositories": [{
         "type": "vcs",
-        "url": "https://github.com/lsinfo3/ITC.ITCMain"
+        "url": "https://github.com/lsinfo3/Itc.ITeleTraffic.git"
     }],
     "require": {
         "typo3/neos": "~2.0.0",
@@ -23,7 +23,7 @@
         "typo3/party": "~3.0.0",
         "typo3/kickstart": "~3.0.0",
         "lelesys/news": "2.0.x-dev",
-        "itc/itcmain": "dev-master",
+        "itc/iteletraffic": "dev-master",
         "typo3/neos-seo": "~1.0.0",
         "typo3/neos-googleanalytics": "~1.0.0",
 	"robertlemke/plugin-blog": "~1.0.0"
