@@ -1,0 +1,27 @@
+db:
+  image: million12/mariadb:latest
+  ports:
+    - 3306
+  environment:
+    MARIADB_PASS: secret-db-password-qpu34thqrgaR3
+
+web:
+  build: .
+  ports:
+    - '8080:80'
+  links:
+    - db:db
+  environment:
+    T3APP_VHOST_NAMES: itc dev.itc behat.dev.itc
+
+dev:
+  image: million12/php-app-ssh
+  ports:
+    - '1122:22'
+  links:
+    - db:db
+    - web:web
+  volumes_from:
+    - web
+  environment:
+    IMPORT_GITHUB_PUB_KEYS: cschwartz
