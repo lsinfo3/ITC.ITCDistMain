@@ -9,7 +9,7 @@ ENV T3APP_VHOST_NAMES "beta.i-teletraffic.org beta.i-teletraffic.dev"
 
 ENV T3APP_BUILD_REPO_URL https://github.com/lsinfo3/ITC.ITCMain.git
 ENV T3APP_BUILD_BRANCH master
-ENV T3APP_NEOS_SITE_PACKAGE TYPO3.NeosDemoTypo3Org
+ENV T3APP_NEOS_SITE_PACKAGE Itc.ITeleTraffic
 
 ADD config.json /root/.composer/config.json
 
