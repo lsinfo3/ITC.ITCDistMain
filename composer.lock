@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "86b1fe91996c82f8c568da35fd6e59eb",
-    "content-hash": "be9ddb9b754f55a9105607d2bf84c253",
+    "hash": "d9797bcf6861d530ca9e49b264dbcb0c",
+    "content-hash": "771d0517663c439475cd8503ddfc1098",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -869,7 +869,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:lsinfo3/ITC.ITeleTraffic.Main.git",
+                "url": "https://github.com/lsinfo3/ITC.ITeleTraffic.Main.git",
                 "reference": "4dcd726b05f99f2783ac998b92bd809391663f81"
             },
             "dist": {
