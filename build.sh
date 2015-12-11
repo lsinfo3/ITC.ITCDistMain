@@ -1,8 +1,8 @@
 #!/bin/bash
 
-mkdir -p /srv/itc28/Resources
+mkdir -p /srv/itcmain/Resources
 
-if [ -d "/data/www/itc28/Data/Persistent/Resources" ]; then
-	rm -rf /data/www/itc28/Data/Persistent/Resources
-        ln -s /srv/itc28/Resources /data/www/itc28/Data/Persistent/
+if [ -d "/data/www/itcmain/Data/Persistent/Resources" ]; then
+	rm -rf /data/www/itcmain/Data/Persistent/Resources
+        ln -s /srv/itcmain/Resources /data/www/itcmain/Data/Persistent/
 fi
