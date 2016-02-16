@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3852540fa700f3f7dd13f664064658fc",
-    "content-hash": "470c634e7a464f633a0c9d32849b3438",
+    "hash": "e9a3528c4ab5aa474582ecf58ad92921",
+    "content-hash": "4783b0d30be1c4ae3679ce2697a82203",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -765,49 +765,6 @@
             "time": "2015-02-24 21:41:37"
         },
         {
-            "name": "google/apiclient",
-            "version": "1.1.7",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/google/google-api-php-client.git",
-                "reference": "400f250a30ae1dd4c4a0a4f750fe973fc70e6311"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/google/google-api-php-client/zipball/400f250a30ae1dd4c4a0a4f750fe973fc70e6311",
-                "reference": "400f250a30ae1dd4c4a0a4f750fe973fc70e6311",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.2.1"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "3.7.*",
-                "squizlabs/php_codesniffer": "~2.3"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.1.x-dev"
-                }
-            },
-            "autoload": {
-                "classmap": [
-                    "src/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "description": "Client library for Google APIs",
-            "homepage": "http://developers.google.com/api-client-library/php",
-            "keywords": [
-                "google"
-            ],
-            "time": "2016-02-02 18:50:42"
-        },
-        {
             "name": "imagine/imagine",
             "version": "v0.6.3",
             "source": {
@@ -1177,187 +1134,6 @@
                 "uuid"
             ],
             "time": "2015-12-17 15:21:44"
-        },
-        {
-            "name": "robertlemke/akismet",
-            "version": "1.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/robertlemke/RobertLemke.Akismet.git",
-                "reference": "8a9a1d47b1a10d18e2ade451c735917d39834734"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/robertlemke/RobertLemke.Akismet/zipball/8a9a1d47b1a10d18e2ade451c735917d39834734",
-                "reference": "8a9a1d47b1a10d18e2ade451c735917d39834734",
-                "shasum": ""
-            },
-            "require": {
-                "typo3/flow": ">=2.0.0-beta1"
-            },
-            "type": "typo3-flow-plugin",
-            "autoload": {
-                "psr-0": {
-                    "RobertLemke\\Akismet": "Classes"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Robert Lemke",
-                    "email": "rl@robertlemke.com",
-                    "homepage": "http://robertlemke.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Integration of Akismet, an intelligent comment spam detector, for TYPO3 Flow",
-            "time": "2013-02-26 09:28:46"
-        },
-        {
-            "name": "robertlemke/plugin-blog",
-            "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/robertlemke/RobertLemke.Plugin.Blog.git",
-                "reference": "494e687790b1a16cfa0d5db1bf3dbe96a99c309e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/robertlemke/RobertLemke.Plugin.Blog/zipball/494e687790b1a16cfa0d5db1bf3dbe96a99c309e",
-                "reference": "494e687790b1a16cfa0d5db1bf3dbe96a99c309e",
-                "shasum": ""
-            },
-            "require": {
-                "robertlemke/akismet": "~1.0",
-                "robertlemke/rss": "~1.0",
-                "typo3/neos": "2.*"
-            },
-            "suggest": {
-                "simplepie/simplepie": "For using the built-in ATOM import",
-                "typo3/swiftmailer": "Allows sending notification emails on new comments"
-            },
-            "type": "typo3-flow-plugin",
-            "extra": {
-                "applied-flow-migrations": [
-                    "TYPO3.Neos-20141218134700",
-                    "TYPO3.Flow-20141113121400",
-                    "TYPO3.Neos-201409071922",
-                    "TYPO3.Neos-201407061038",
-                    "TYPO3.Neos-201310021548",
-                    "TYPO3.TYPO3CR-130523180140",
-                    "TYPO3.Neos.NodeTypes-130516220640",
-                    "TYPO3.TypoScript-130516234520",
-                    "TYPO3.Flow-201212051340",
-                    "TYPO3.Flow-201209251426",
-                    "TYPO3.FLOW3-201209201112",
-                    "TYPO3.FLOW3-201201261636",
-                    "TYPO3.Fluid-201205031303",
-                    "TYPO3.FLOW3-201205292145",
-                    "TYPO3.FLOW3-201206271128",
-                    "TYPO3.Flow-201211151101",
-                    "TYPO3.TypoScript-130516235550",
-                    "TYPO3.Neos.NodeTypes-201309111655",
-                    "TYPO3.Flow-201310031523",
-                    "TYPO3.Flow-201405111147",
-                    "TYPO3.TYPO3CR-140911160326",
-                    "TYPO3.Neos-201410010000",
-                    "TYPO3.TYPO3CR-141101082142",
-                    "TYPO3.Neos-20141113115300",
-                    "TYPO3.Fluid-20141113120800",
-                    "TYPO3.Fluid-20141121091700",
-                    "TYPO3.Fluid-20150214130800",
-                    "TYPO3.Neos-20150303231600",
-                    "TYPO3.TYPO3CR-20150510103823"
-                ]
-            },
-            "autoload": {
-                "psr-0": {
-                    "RobertLemke\\Plugin\\Blog": "Classes"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Robert Lemke",
-                    "email": "robert@flownative.com",
-                    "homepage": "http://robertlemke.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "A blog plugin for Neos",
-            "time": "2015-12-18 17:20:45"
-        },
-        {
-            "name": "robertlemke/rss",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/robertlemke/RobertLemke.Rss.git",
-                "reference": "97500b673cab2c13db7a6b641d9639d64a54c021"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/robertlemke/RobertLemke.Rss/zipball/97500b673cab2c13db7a6b641d9639d64a54c021",
-                "reference": "97500b673cab2c13db7a6b641d9639d64a54c021",
-                "shasum": ""
-            },
-            "type": "typo3-flow-plugin",
-            "extra": {
-                "applied-flow-migrations": [
-                    "TYPO3.FLOW3-201201261636",
-                    "TYPO3.Fluid-201205031303",
-                    "TYPO3.FLOW3-201205292145",
-                    "TYPO3.FLOW3-201206271128",
-                    "TYPO3.FLOW3-201209201112",
-                    "TYPO3.Flow-201209251426",
-                    "TYPO3.Flow-201211151101",
-                    "TYPO3.Flow-201212051340",
-                    "TYPO3.TypoScript-130516234520",
-                    "TYPO3.TypoScript-130516235550",
-                    "TYPO3.TYPO3CR-130523180140",
-                    "TYPO3.Neos.NodeTypes-201309111655",
-                    "TYPO3.Flow-201310031523",
-                    "TYPO3.Flow-201405111147",
-                    "TYPO3.Neos-201407061038",
-                    "TYPO3.Neos-201409071922",
-                    "TYPO3.TYPO3CR-140911160326",
-                    "TYPO3.Neos-201410010000",
-                    "TYPO3.TYPO3CR-141101082142",
-                    "TYPO3.Neos-20141113115300",
-                    "TYPO3.Fluid-20141113120800",
-                    "TYPO3.Flow-20141113121400",
-                    "TYPO3.Fluid-20141121091700",
-                    "TYPO3.Neos-20141218134700",
-                    "TYPO3.Fluid-20150214130800",
-                    "TYPO3.Neos-20150303231600",
-                    "TYPO3.TYPO3CR-20150510103823"
-                ]
-            },
-            "autoload": {
-                "psr-0": {
-                    "RobertLemke\\Rss": "Classes"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Robert Lemke",
-                    "email": "robert@flownative.com",
-                    "homepage": "http://robertlemke.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "A multi-purpose RSS library",
-            "time": "2015-08-20 13:45:04"
         },
         {
             "name": "symfony/console",
@@ -1863,37 +1639,6 @@
             ],
             "description": "An open source Content Application Platform based on Flow. A set of core Content Management features is resting within a larger context that allows you to build a perfectly customized experience for your users.",
             "time": "2016-01-14 18:36:16"
-        },
-        {
-            "name": "typo3/neos-googleanalytics",
-            "version": "1.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/neos/neos-googleanalytics.git",
-                "reference": "1dbdbcfcbff2c718225160e039a127b499100b5f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/neos/neos-googleanalytics/zipball/1dbdbcfcbff2c718225160e039a127b499100b5f",
-                "reference": "1dbdbcfcbff2c718225160e039a127b499100b5f",
-                "shasum": ""
-            },
-            "require": {
-                "google/apiclient": "1.1.*",
-                "typo3/neos": "~2.0"
-            },
-            "type": "typo3-flow-package",
-            "autoload": {
-                "psr-0": {
-                    "TYPO3\\Neos\\GoogleAnalytics": "Classes"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0+"
-            ],
-            "description": "Google Analytics integration for TYPO3 Neos",
-            "time": "2015-12-17 09:43:26"
         },
         {
             "name": "typo3/neos-kickstarter",

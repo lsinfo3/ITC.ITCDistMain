@@ -26,9 +26,7 @@
         "typo3/kickstart": "~3.1.1",
         "lelesys/news": "2.1.x-dev",
         "itc/iteletraffic": "dev-master",
-        "typo3/neos-seo": "~1.0.7",
-        "typo3/neos-googleanalytics": "~1.0.2",
-	"robertlemke/plugin-blog": "~1.0.1"
+        "typo3/neos-seo": "~1.0.7"
     },
     "require-dev": {
         "typo3/buildessentials": "2.3.*",
