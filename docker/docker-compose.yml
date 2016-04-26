@@ -24,4 +24,4 @@ dev:
   volumes_from:
     - web
   environment:
-    IMPORT_GITHUB_PUB_KEYS: cschwartz
+    IMPORT_GITHUB_PUB_KEYS: gummidude
