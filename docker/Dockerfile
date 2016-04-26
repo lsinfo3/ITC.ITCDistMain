@@ -16,3 +16,5 @@ ADD config.json /root/.composer/config.json
 VOLUME ["/srv/itcmain/Resources"]
 
 RUN . /build-typo3-app/pre-install-typo3-app.sh
+
+./flow resource:publish
