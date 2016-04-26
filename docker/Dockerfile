@@ -1,4 +1,4 @@
-FROM million12/typo3-flow-neos-abstract:php56
+FROM million12/typo3-flow-neos-abstract:php70
 MAINTAINER Marcin Ryzycki marcin@m12.io
 
 ENV DB_PORT_3306_TCP_ADDR 172.17.42.1
