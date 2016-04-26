@@ -17,4 +17,4 @@ VOLUME ["/srv/itcmain/Resources"]
 
 RUN . /build-typo3-app/pre-install-typo3-app.sh
 
-RUN ./flow resource:publish
+RUN . /data/www/itcmain/flow resource:publish
