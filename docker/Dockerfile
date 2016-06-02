@@ -1,4 +1,4 @@
-FROM million12/typo3-flow-neos-abstract:php56
+FROM million12/typo3-flow-neos-abstract:latest
 MAINTAINER Marcin Ryzycki marcin@m12.io
 
 ENV DB_PORT_3306_TCP_ADDR 172.17.42.1
@@ -17,4 +17,4 @@ VOLUME ["/srv/itcmain/Resources"]
 
 RUN . /build-typo3-app/pre-install-typo3-app.sh
 
-RUN . /data/www/itcmain/flow resource:publish
+#RUN . /data/www/itcmain/flow resource:publish
