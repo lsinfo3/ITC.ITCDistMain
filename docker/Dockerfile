@@ -17,5 +17,3 @@ ADD config.json /root/.composer/config.json
 VOLUME ["/srv/itcmain/Resources"]
 
 RUN . /build-typo3-app/pre-install-typo3-app.sh
-
-RUN ["cat /data/www/itcmain/docker/routes-addon.yaml >> /data/www/itcmain/Configuration/Routes.yaml"]
