@@ -8,7 +8,7 @@ ENV T3APP_NAME itcmain
 ENV T3APP_VHOST_NAMES "beta.i-teletraffic.dev .i-teletraffic.org .itc-conference.org"
 
 ENV T3APP_BUILD_REPO_URL https://github.com/lsinfo3/ITC.ITCDistMain.git
-ENV T3APP_BUILD_BRANCH 44c927844e4d46ba3edf4f2a1ea526a564d76a9b
+ENV T3APP_BUILD_BRANCH master
 ENV T3APP_NEOS_SITE_PACKAGE Itc.ITeleTraffic
 ENV FLOW_CONTEXT=Production
 
